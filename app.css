@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(./fonts/Roboto/Roboto-Medium.ttf);
+}
+html,body {
+    height: 100vh;
+
+}
+
+
+.container {
+    height: 100%;
+    width: 100%;
+    
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+
+    background-color: #f3f3f39d;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.content {
+    width: 100%;
+    height: 50%;
+    font-size: 6rem;
+    justify-content: space-around;
+
+}
+
+.number-card {
+    flex: 1;
+    text-align: center;
+    box-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-radius: 10px;
+
+}
+
+.controls {
+    width: 100%;
+    height: 50%;
+}
+
+
+.btn {
+    padding: 0.9rem 2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+}
+
+.btn:active {
+    transform: scale(0.95);
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    color: white;
+    background-color: rgba(37, 37, 206, 0.74);
+    cursor: pointer;
+
+}
